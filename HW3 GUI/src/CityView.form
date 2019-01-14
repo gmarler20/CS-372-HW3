@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CityView">
+  <grid id="27dc6" binding="setPanel" layout-manager="FormLayout">
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="13" y="25" width="894" height="846"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="9b1b2" layout-manager="FlowLayout" hgap="10" vgap="20" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b9520" class="javax.swing.JButton" binding="viewCityBreakdownButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="View City Breakdown"/>
+            </properties>
+          </component>
+          <component id="9b581" class="javax.swing.JComboBox" binding="BuildingStatBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="(View Building Stats)"/>
+                <item value="City Hall"/>
+                <item value="School"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c3927" binding="CreatePolice" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="dcf28" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Police"/>
+            </properties>
+          </component>
+          <component id="740de" class="javax.swing.JTextField" binding="enterNameOfPoliceTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Enter name of police"/>
+            </properties>
+          </component>
+          <component id="5f059" class="javax.swing.JTextField" binding="enterAgeOfPoliceTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Enter age of police"/>
+            </properties>
+          </component>
+          <component id="a00c5" class="javax.swing.JComboBox" binding="PoliceRoleBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Select Police Role"/>
+                <item value="Patrol"/>
+                <item value="Sargent"/>
+                <item value="Captain"/>
+                <item value="Chief"/>
+              </model>
+            </properties>
+          </component>
+          <component id="67b48" class="javax.swing.JComboBox" binding="PoliceLocationBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Location"/>
+                <item value="School"/>
+                <item value="City Hall"/>
+                <item value="City"/>
+              </model>
+            </properties>
+          </component>
+          <component id="395c2" class="javax.swing.JButton" binding="createPoliceButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Create Police!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ad6f1" binding="CreateTeacher" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a6b59" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Teacher"/>
+            </properties>
+          </component>
+          <component id="fab15" class="javax.swing.JTextField" binding="enterNameOfTeacherTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Enter name of teacher"/>
+            </properties>
+          </component>
+          <component id="ea8f0" class="javax.swing.JTextField" binding="enterAgeOfTeacherTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Enter age of teacher"/>
+            </properties>
+          </component>
+          <component id="c564d" class="javax.swing.JTextField" binding="enterGradeLevelTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Enter Grade level"/>
+            </properties>
+          </component>
+          <component id="83f01" class="javax.swing.JComboBox" binding="TeacherSubjectBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Subject"/>
+                <item value="Math"/>
+                <item value="English"/>
+                <item value="History"/>
+                <item value="Science"/>
+              </model>
+            </properties>
+          </component>
+          <component id="1cd47" class="javax.swing.JComboBox" binding="TeacherLocationBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Location"/>
+                <item value="School"/>
+                <item value="City Hall"/>
+                <item value="City"/>
+              </model>
+            </properties>
+          </component>
+          <component id="1d384" class="javax.swing.JButton" binding="createTeacherButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Create Teacher!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9469a" binding="CreateKid" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="17f82" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Kid"/>
+            </properties>
+          </component>
+          <component id="f0421" class="javax.swing.JTextField" binding="enterNameOfKidTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <columns value="0"/>
+              <font swing-font="FormattedTextField.font"/>
+              <text value="Enter name of kid"/>
+            </properties>
+          </component>
+          <component id="e611d" class="javax.swing.JTextField" binding="enterAgeOfKidTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <horizontalAlignment value="0"/>
+              <text value="Enter age of kid"/>
+            </properties>
+          </component>
+          <component id="a36f6" class="javax.swing.JComboBox" binding="KidCandyBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Favorite Candy"/>
+                <item value="Kit Kat"/>
+                <item value="Twix"/>
+                <item value="Skittles"/>
+              </model>
+            </properties>
+          </component>
+          <component id="b7964" class="javax.swing.JComboBox" binding="KidLocationBox">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Location"/>
+                <item value="School"/>
+                <item value="City Hall"/>
+                <item value="City"/>
+              </model>
+            </properties>
+          </component>
+          <component id="53d39" class="javax.swing.JButton" binding="createKidButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Create Kid!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="392eb" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e5975" class="javax.swing.JFormattedTextField" binding="formattedTextField1" default-binding="true">
+            <constraints border-constraint="West"/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="c26ac" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="97907">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="753d">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="110b2" binding="VisualPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
