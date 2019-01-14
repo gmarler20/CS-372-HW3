@@ -201,7 +201,7 @@ public class CityView extends JFrame {
                                 }
                                 // Else, the person has moved to the city
                                 else {
-                                    JOptionPane.showMessageDialog(null,"You have moved this person to the city!");
+                                  System.out.println("You have moved this person to the city!");
                                     School1.remove(person);
                                     CityPeople1.add(person);
                                 }
